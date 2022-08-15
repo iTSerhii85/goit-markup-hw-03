@@ -2,6 +2,7 @@
   --brend-color: #2196f3;
   --background-color: #ffffff;
   --header-background-color: #ffffff;
+  --hero-title-color:#ffffff;
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -26,6 +27,8 @@ body {
 /* *Сбросил точки в списках */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* * Сбросил подчеркивание и тип шрифта для ссылок */
@@ -48,27 +51,33 @@ body {
   margin: -1px;
 }
 
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* *Блок герой */
 .hero {
   background-color: var(--background-color-hero);
-
+  text-align: center;
   /* width: 1600px; */
   /* height: 600px; */
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--hero-title-color);
+
+  max-width: 696px;
+  margin: 0 auto 30px auto;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  /* width: 696px;
-  height: 120px; */
-
-
 }
 .hero-button {
   background-color: var(--accent-color);
@@ -83,8 +92,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  /* width: 216px;
-  height: 50px; */
+  min-width: 216px;
+  padding: 10px 32px;
+  border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -96,12 +106,16 @@ body {
 /* *Заголовки */
 .section-title {
   color: var(--title-text-color);
+
 }
 .main.section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 /* * Блок виды деятельности */
@@ -110,11 +124,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .Activities-section p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  margin: 0;
 }
 
 /* *Блок наша команда */
