@@ -52,7 +52,7 @@ body {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 94px;
@@ -61,12 +61,16 @@ body {
   margin-right: auto;
 }
 
+/* *Шапка */
+.hat .container {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 /* *Блок герой */
 .hero {
   background-color: var(--background-color-hero);
   text-align: center;
-  /* width: 1600px; */
-  /* height: 600px; */
 }
 .hero-title {
   color: var(--hero-title-color);
@@ -103,6 +107,10 @@ body {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.hero .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* *Заголовки */
@@ -204,6 +212,10 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* *Ссылки */
