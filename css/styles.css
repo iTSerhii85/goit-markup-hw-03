@@ -51,12 +51,19 @@ body {
   margin: -1px;
 }
 
+/* *Падинги для всех секций кроме героя*/
+.Activities-section,
+.metier-section,
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* *Контейнер (центрирует по ширине */
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -71,6 +78,8 @@ body {
 .hero {
   background-color: var(--background-color-hero);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--hero-title-color);
@@ -107,10 +116,6 @@ body {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.hero .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 /* *Заголовки */
@@ -156,9 +161,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .team-section p {
   font-size: 16px;
@@ -172,6 +176,9 @@ body {
   background-color: #ffffff;
 
   width: 270px;
+}
+.team-section img {
+  margin-bottom: 30px;
 }
 
 /* *Логотип */
@@ -284,8 +291,4 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
-.gallery li {
-  /* width: 370px;
-  height: 404px; */
 }
