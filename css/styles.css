@@ -2,7 +2,7 @@
   --brend-color: #2196f3;
   --background-color: #ffffff;
   --header-background-color: #ffffff;
-  --hero-title-color:#ffffff;
+  --hero-title-color: #ffffff;
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -55,6 +55,8 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,7 +108,6 @@ body {
 /* *Заголовки */
 .section-title {
   color: var(--title-text-color);
-
 }
 .main.section-title {
   font-size: 36px;
@@ -146,18 +147,23 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .team-section p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0;
+  padding-bottom: 30px;
 }
 .team-section li {
   background-color: #ffffff;
 
-  /* width: 270px;
-  height: 368px; */
+  width: 270px;
 }
 
 /* *Логотип */
