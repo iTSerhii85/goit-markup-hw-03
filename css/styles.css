@@ -14,16 +14,19 @@
   --button-font: roboto;
   --logo-font: Raleway;
 }
+
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
 
   font-family: var(--maine-font), sans-serif;
 }
+
 .hat {
   background-color: var(--header-background-color);
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 /* *Сбросил точки в списках */
@@ -61,7 +64,8 @@ img {
 /* *Падинги для всех секций кроме героя*/
 .Activities-section,
 .metier-section,
-.team-section {
+.team-section,
+.portfolio-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -270,6 +274,10 @@ img {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 6px 22px;
 }
 .button:hover,
 .button:focus {
@@ -288,4 +296,9 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+.gallery li {
+  border: 1px solid #EEEEEE;
+  width: 370px;
+  margin-bottom: 30px;
 }
