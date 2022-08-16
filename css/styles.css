@@ -22,6 +22,8 @@ body {
 }
 .hat {
   background-color: var(--header-background-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /* *Сбросил точки в списках */
@@ -35,6 +37,11 @@ body {
 .link {
   text-decoration: none;
   font-style: normal;
+}
+
+/* *Сбросил отступ у картинок */
+img {
+  display: block;
 }
 
 /* *Скрыл заголовок */
@@ -62,16 +69,8 @@ body {
 /* *Контейнер (центрирует по ширине */
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* *Шапка */
-.hat .container {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* *Блок герой */
@@ -206,6 +205,8 @@ body {
 /* *Подвал */
 .footer {
   background-color: var(--background-color-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-mail,
 .footer-tel {
@@ -219,10 +220,6 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /* *Ссылки */
