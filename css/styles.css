@@ -288,7 +288,7 @@ img {
   color: var(--accent-color);
 }
 
-/* *Флекс шапки */
+/* *Флекс хедера */
 .site-nav {
   display: flex;
   gap: 50px;
@@ -344,15 +344,23 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
   padding-left: 24px;
   padding-right: 24px;
+  margin-top: 20px;
+  margin-bottom: 0;
+
 }
 .gallery p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+
   padding-left: 24px;
   padding-right: 24px;
+  padding-bottom: 20px;
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 .gallery li {
   border: 1px solid #eeeeee;
