@@ -347,8 +347,8 @@ img {
 
   padding-left: 24px;
   padding-right: 24px;
-  margin-top: 20px;
-  margin-bottom: 0;
+  padding-top: 20px;
+  margin: 0;
 
 }
 .gallery p {
@@ -363,11 +363,15 @@ img {
   margin-bottom: 0;
 }
 .gallery li {
-  border: 1px solid #eeeeee;
   width: 370px;
 }
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.border {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
