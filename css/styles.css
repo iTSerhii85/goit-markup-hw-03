@@ -62,12 +62,14 @@ img {
 }
 
 /* *Падинги для всех секций кроме героя*/
-.Activities-section,
 .metier-section,
 .team-section,
 .portfolio-section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.Activities-section {
+  padding-top: 94px;
 }
 
 /* *Контейнер (центрирует по ширине */
@@ -178,6 +180,7 @@ img {
 
   margin-top: 0;
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 .team-section p {
   font-size: 16px;
@@ -192,9 +195,9 @@ img {
 
   width: 270px;
 }
-.team-section img {
+/* .team-section img {
   margin-bottom: 30px;
-}
+} */
 .team-list {
   display: flex;
   gap: 30px;
@@ -345,22 +348,14 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  margin: 0;
-
+  margin-bottom: 4px;
+  margin-top: 0;
 }
 .gallery p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  margin-top: 4px;
-  margin-bottom: 0;
+  margin: 0;
 }
 .gallery li {
   width: 370px;
@@ -374,4 +369,6 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+
+  padding: 20px 24px;
 }
